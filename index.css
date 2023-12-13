@@ -1,0 +1,122 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.divMay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#elements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & li{
+        margin: 2rem;
+        display: grid;
+
+        & button{
+            border-radius: 50%;
+            border: none;
+            height: auto;
+            width: auto;
+            background-color: antiquewhite;
+            justify-self: end;
+        }
+
+        & button:hover{
+            cursor: pointer;
+            background-color: rgb(251, 229, 201);
+        }
+    }
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+
+    border-radius: 1rem;
+
+    border: none;
+
+    background-color: #b6b6b6;
+    
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    background-color: antiquewhite;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(251, 229, 201);
+}
+
+#elements {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#maxWeight{
+    width: fit-content;
+}
+
+#minCalories{
+    width: fit-content;
+}
+
+.cosas{
+    display: grid;
+    justify-items: center;
+
+    & button{
+        margin-top: 1 rem;
+    }
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    & li {
+        margin: 1rem;
+        background-color: #b6b6b6;
+        padding: 1rem;
+        margin: 1rem;
+        border: 1px solid black;
+        border-radius: 0.5rem;
+    }
+}
